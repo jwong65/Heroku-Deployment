@@ -7,8 +7,9 @@ const PORT= process.env.PORT
 
 
 app.get('/', (req, res)=>{
-    res.send("Hello world, this is the first")
+    res.send("Hello world, this is the first update testing")
 })
+
 
 app.listen(PORT)
 
